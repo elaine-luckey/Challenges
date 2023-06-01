@@ -16,3 +16,10 @@ N/A
 
 ## License:
 Please refer to the LICENSE in the repo
+
+## Link to Deployed Application
+https://elaine-luckey.github.io/Week-1-Challenge-Code-Refactor/#social-media-marketing
+
+## Screenshot of deployed application
+![image](https://github.com/elaine-luckey/Week-1-Challenge-Code-Refactor/assets/134161776/eca6ba42-edcd-4657-b8e6-b60eb0951037)
+
