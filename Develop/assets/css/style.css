@@ -27,7 +27,7 @@ The .header is to change the padding, font type variety, font color for the link
 
 /*
 The .header h1 is used to line the links on the right inside the header block. Removed the font size because it will be overwritten in the next .header div block
-*/
+*/ 
 .header h1 {
     font-size: 50px;
     display: inline-block;
