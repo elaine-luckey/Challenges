@@ -1,55 +1,88 @@
+/*
+Universal Selector and applies styles to all elements on the page.
+*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+Background color that applies to entire body
+*/
 body {
     background-color: #d9dcd6;
 }
 
+/*
+Add single quotations around Arial text type.
+The .header is to change the padding, font type variety, font color for the links on the right, and background of the header
+*/
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
+/*
+The .header h1 is used to line the links on the right inside the header block. Removed the font size because it will be overwritten in the next .header div block
+*/
 .header h1 {
+    font-size: 50px;
     display: inline-block;
-    font-size: 48px;
 }
 
+/*
+Changes only the "seo" in the title to be a different color than the rest of the title.
+*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*
+.header div controls the padding, placement and text size and font of the links on the right side of the header
+*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
+/*
+The list-style-type: none; remove the bullet points that normally show when you use <li>.
+*/
 .header div ul {
     list-style-type: none;
 }
 
+/*
+Arranges the links on the top right to display horizontally instead of vertically
+*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/*
+this is used to keep the links in the top right to remain white and does not display the text decoration like underlining or changing colors after being clicked.
+*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*
+Text size for the Search Engine Optimization, Online Reputation Management, and Social Media Marketing description sections.
+*/
 p {
     font-size: 16px;
 }
 
+/*
+The background photo that displays under the header. It is shows as the background but given parameters to remain at the top.
+*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +92,37 @@ p {
     background-position: center;
 }
 
+/*
+Positions the Search Engine Optimization & Social Media Marketing title and descriptions in the blue background block and shifts it to display leaning to
+the left and keeps the images inside to the left.
+*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*
+Positions the Online Reputation Management title and description in the blue background block and shifts it to display leaning to the right and 
+keeps the image inside to the right.
+*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*
+Shifts the Search Engine Optimization, Online Reputation Management and Social Media Marketing sections to the left and keeps the right side bar displaying
+on the right and not to fall underneath the other sections.
+*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*
+Creates the blue background section for the Lead Generation, Brand Awareness, and Cost Management and shifts them into a right side bar
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,119 +130,180 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/*
+Text color and margins to space out the right side bar for Lead Generation
+*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*
+Text color and margins to space out the right side bar for Brand Awareness
+*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*
+Text color and margins to space out the right side bar for Cost Management
+*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*
+Margin spacing and text alignment for Lead Generation title
+*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
+Margin spacing and text alignment for Brand Awareness title
+*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
+Margin spacing and text alignment for Cost Management title
+*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/*
+Image alignment for Lead Generation title
+*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*
+Image alignment for Brand Awareness title
+*/
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*
+Image alignment for Cost Management title
+*/
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*
+Controls the blue background behind Search Engine Optimization and creates the text color
+*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/*
+Controls the blue background behind Online Reputation Management and creates the text color
+*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/*
+Controls the blue background behind Social Media Marketing and creates the text color
+*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
+/*
+Controls the image size of the Search Engine Optimization section
+*/
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/*
+Controls the image size of the Online Reputation Management section
+*/
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/*
+Controls the image size of the Social Media Marketing section
+*/
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*
+Creates the spacing between the Search Engine Optimization title and the description and give the title a font size
+*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*
+Creates the spacing between the Online Reputation Management  title and the description and give the title a font size
+*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*
+Creates the spacing between the Social Media Marketing title and the description and give the title a font size
+*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*
+Aligns the footer to the center of the page and sets the font. The clear:both sets this to appear below any floating elements. 
+*/
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', sans-serif;
     text-align: center;
 }
+
+/*
+Removed the following because it would be more simple to change the header size to h3 than changing the font size in the style.css file too.
 
 .footer h2 {
     font-size: 20px;
 }
+*/
